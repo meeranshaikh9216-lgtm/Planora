@@ -1,0 +1,98 @@
+# ==========================================
+# PLANORA — GIT IGNORE CONFIGURATION
+# React + Python Flask + MySQL Project
+# ==========================================
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Node.js & Frontend Builds ---
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dev-dist/
+frontend/dev-dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# --- Databases, Backups & Student Data ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+planora.db
+database/planora.db
+backend/instance/
+instance/
+database_backups/
+backend/database_backups/
+db_analysis_report.json
+backend/db_analysis_report.json
+
+# --- User Uploads & Media ---
+uploads/
+backend/uploads/
+
+# --- Binaries & Executables ---
+*.exe
+*.dll
+cloudflared.exe
+
+# --- Temporary & Local Runner Files ---
+cloudflare_url.txt
+live_mobile_url.txt
+*.log
+check_procs.py
+clean_all.py
+show_procs.py
+test_tunnel.py
+test_tunnel_api.py
+verify_live.py
+start_cf_tunnel.py
+start_lhr_tunnel.py
+production_mobile_service.py
+
+# --- Large Generated PDF Code Exports ---
+*.pdf
+pdf_screenshot.png
+
+# --- IDEs, Editors & OS Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
