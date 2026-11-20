@@ -76,7 +76,7 @@ def create_app(config_class=Config):
             <h1>Planora API Engine</h1>
             <p>The Python Flask REST API server is healthy and responding to requests.</p>
             <p>To use the full interactive application, open the React Frontend:</p>
-            <a class="btn" href="https://planora-frontend-ntar.onrender.com">Open Planora Web App (Port 3000)</a>
+            <a class="btn" href="https://planora-frontend-ntar.onrender.com">Open Planora Web App</a>
           </div>
         </body>
         </html>
